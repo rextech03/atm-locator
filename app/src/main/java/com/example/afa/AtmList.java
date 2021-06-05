@@ -11,6 +11,27 @@ public class AtmList
     TextView longitude;
     TextView latitude;
     View view;
+        
+         String[] addresses = {
+         "5 High Rd, Willesden, London ",
+          "93 Queensway, Bayswater, London",
+           "31 Roehampton Vale, Roehampton, London",
+          "136 New Bond St, London W1A 1HP",
+        "Mcdonald's, 11-59 High Rd, East Finchley, London",
+          "490 High Rd, Tottenham, London",
+         "Asda, 158 Clapton Common, London",
+         "333 Bethnal Green Rd, London",
+         "366 Strand, West End, London Wc2R 0Jf",
+         "Asda Old Kent Road Superstore, Old Kent Rd, Ossory Rd, London"
+  };
+
+
+    ArrayList<String> longitude = new ArrayList<>(Arrays.asList(
+            "-0.239200", "-0.189190", "-0.247310", "-0.144310", "-0.165990", "-0.068150", "-0.060460", "-0.063160", "-0.063160", "-0.081760"
+    ));
+    ArrayList<String> latitude = new ArrayList<>(Arrays.asList(
+            "51.548760", "51.516570", "51.439430", "51.512070", "51.592340", "51.605380", "51.568840", "51.526650", "51.526649", "51.491138"
+    ));
 
     AtmList(View itemView)
     {
